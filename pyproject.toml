@@ -1,0 +1,16 @@
+[project]
+name = "grammar-vae-sr"
+version = "0.1.0"
+description = "GrammarVAE for Symbolic Regression"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5.0",
+    "numpy>=2.0.0",
+    "sympy>=1.13",
+    "nltk>=3.9",
+    "cma>=3.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
